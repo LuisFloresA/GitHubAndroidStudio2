@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View view) {
         switch(view.getId()){
             case R.id.nextAct:
-                Toast.makeText(this, "paaaa", Toast.LENGTH_LONG).show();
+                Toast.makeText(this, "Toast Test", Toast.LENGTH_LONG).show();
                 Intent sig = new Intent(this,Act2.class);
                 //sig.putExtra("dato",txt1.getText().toString());
                 //startActivity(sig);
