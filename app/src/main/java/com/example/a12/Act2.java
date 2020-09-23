@@ -11,9 +11,7 @@ public class Act2 extends AppCompatActivity  {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_act2);
-
         tv1 = findViewById(R.id.txtMostrar);
-
         String valor = getIntent().getStringExtra("dato");
         tv1.setText(valor);
     }

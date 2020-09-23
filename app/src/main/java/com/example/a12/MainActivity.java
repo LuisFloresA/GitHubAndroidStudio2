@@ -18,17 +18,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
         btnAct2 = findViewById(R.id.nextAct);
         txt1 = findViewById(R.id.input);
-
         btnAct2.setOnClickListener(this);
-
     }
-
 
     @Override
     public void onClick(View view) {
         switch(view.getId()){
             case R.id.nextAct:
-                Toast.makeText(this, "pa", Toast.LENGTH_LONG).show();
+                Toast.makeText(this, "paaaa", Toast.LENGTH_LONG).show();
                 Intent sig = new Intent(this,Act2.class);
                 //sig.putExtra("dato",txt1.getText().toString());
                 //startActivity(sig);
